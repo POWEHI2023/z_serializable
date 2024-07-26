@@ -1,2 +1,4 @@
 # z_serializable
 一个可以序列化反序列化用于网络传输的类
+
+除了已经包含的string以外，只可以包含栈类型，堆类型只能转化为json、xml等格式存储为当前的string类型，成员名为message的对象
